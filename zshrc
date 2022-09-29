@@ -1,7 +1,4 @@
 
-# initialize the prompt system promptinit
-autoload -U promptinit
-
 
 # Add color to terminal
 export CLICOLOR=1
@@ -15,6 +12,7 @@ PROMPT='
 %L %/ %# '
 
 RPROMPT='%*'
+#RPS1="%(?..(%?%)) %~"
 
 #Functions
 function mkcd() {
